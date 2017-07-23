@@ -16,7 +16,7 @@ const swaggerDefinition = {
     version: '1.0.0',
     description: 'RESTful API with Swagger'
   },
-  host: 'vast-shore-36257.herokuapp.com',
+  host: 'intense-river-40548.herokuapp.com',
   basePath: '/',
 };
 
