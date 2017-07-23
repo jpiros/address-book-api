@@ -121,11 +121,11 @@ app.post('/contacts', (req, res) => {
  *       200:
  *         description: An array of contacts
  *         schema:
- *           $ref: '#/definitions/Todo'
+ *           $ref: '#/definitions/Contact'
  */
 app.get('/contacts', (req, res) => {
-  Todo.find().then((todos) => {
-    res.send({todos});
+  Contact.find().then((contacts) => {
+    res.send({contacts});
   }, (e) => {
     res.status(400).send(e);
   })
